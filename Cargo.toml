@@ -1,0 +1,10 @@
+[package]
+name = "pigpiod-if2"
+description = "Safe, idiomatic Rust wrapper of pigpiod-if2-sys."
+version = "0.1.0"
+authors = ["Ryo Kawaguchi <ryo@kawagu.ch>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+pigpiod-if2-sys = { path = "./pigpiod-if2-sys" }

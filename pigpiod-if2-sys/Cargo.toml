@@ -1,0 +1,10 @@
+[package]
+name = "pigpiod-if2-sys"
+description = "Rust bindings to pigpiod_if2 C API."
+version = "0.1.0"
+authors = ["Ryo Kawaguchi <ryo@kawagu.ch>"]
+edition = "2018"
+license = "MIT"
+
+[build-dependencies]
+bindgen = "0.57"
